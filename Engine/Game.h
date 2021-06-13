@@ -23,6 +23,8 @@
 #include "Keyboard.h"
 #include "Mouse.h"
 #include "Graphics.h"
+#include "Surface.h"
+#include <string>
 
 class Game
 {
@@ -40,6 +42,7 @@ private:
 private:
 	MainWindow& wnd;
 	Graphics gfx;
+	Surface srfc;
 	/********************************/
 	/*  User Variables              */
 	/********************************/
